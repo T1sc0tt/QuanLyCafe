@@ -1,5 +1,5 @@
 # HỆ THỐNG QUẢN LÝ QUÁN CÀ PHÊ (COFFEE SHOP MANAGEMENT SYSTEM)
-**Phiên bản: 2.0 (Giao diện chuẩn Nâu - Trắng & Kiểm lỗi nhập liệu nâng cao)**
+
 **Môi trường phát triển tối ưu: Apache NetBeans IDE 29 (hoặc NetBeans 12+) | Java Swing | MySQL 8.x | Maven**
 
 ---
@@ -43,7 +43,7 @@ CafeManagementSystem/
 
 ---
 
-## 🚀 3. HƯỚNG DẪN CÀI ĐẶT & CHẠY TRÊN APACHE NETBEANS IDE 29
+HƯỚNG DẪN CÀI ĐẶT & CHẠY TRÊN APACHE NETBEANS IDE 29
 
 ### Bước 1: Khởi động Cơ sở dữ liệu (MySQL / XAMPP)
 1. Mở phần mềm **XAMPP Control Panel**, nhấn **Start** cho 2 dịch vụ **Apache** và **MySQL**.
