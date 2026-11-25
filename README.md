@@ -4,27 +4,7 @@
 
 ---
 
-## ☕ 1. TỔNG QUAN VỀ PHIÊN BẢN CẬP NHẬT 2.0
-
-Dự án đã được thiết kế lại toàn diện theo các yêu cầu chi tiết:
-1. **Thiết kế màu sắc chuẩn xác theo đề tài:**
-   - **Panel điều khiển (Sidebar bên trái, Header đăng nhập):** Tông màu nâu cà phê ấm áp (`#4A2C11` / `#321C09`) sang trọng, chữ trắng ngà và điểm nhấn màu vàng hổ phách (`#D4A373`).
-   - **Toàn bộ khu vực nội dung còn lại:** Tông màu **TRẮNG** (`#FFFFFF`) tinh khôi, viền xám sáng mềm mại, bảng dữ liệu và thẻ báo cáo trực quan, sắc nét.
-2. **Thư mục `images/` chuyên dụng:**
-   - Cung cấp sẵn thư mục `images/` ở thư mục gốc dự án và trong `src/main/resources/images/`.
-   - Bao gồm các ảnh mẫu món ăn chất lượng cao (`cafe_den.png`, `cafe_sua.png`, `cappuccino.png`, `latte.png`, `tra_dao.png`, `tra_vai.png`, `matcha_latte.png`, `banh_tiramisu.png`, `banh_croissant.png`...).
-   - Bao gồm đầy đủ icon các nút bấm điều khiển (`icon_dashboard.png`, `icon_menu.png`, `icon_customers.png`, `icon_orders.png`, `icon_users.png`, `icon_add.png`, `icon_edit.png`, `icon_delete.png`, `icon_print.png`...).
-   - Bạn có thể thoải mái thêm, xóa, hoặc đổi ảnh món ăn trực tiếp trong thư mục `images/` này.
-3. **Cơ chế kiểm soát & Bẫy lỗi nhập liệu toàn diện (`ValidationUtil.java`):**
-   - **Bắt lỗi bỏ trống:** Không cho phép lưu khi chưa điền các trường bắt buộc (`*`).
-   - **Bẫy lỗi Số điện thoại:** Bắt buộc số điện thoại phải gồm đúng **10 chữ số** (0-9).
-   - **Bẫy lỗi Email:** Bắt buộc email phải chứa ký tự `@` và đúng cấu trúc tên miền hợp lệ.
-   - **Bẫy lỗi Giá tiền:** Bắt buộc đơn giá phải là số dương lớn hơn 0 (`price > 0`).
-   - **Bẫy lỗi Đơn hàng:** Bắt buộc giỏ hàng phải có ít nhất 1 món và số lượng phải lớn hơn 0 trước khi ghi nhận vào CSDL.
-
----
-
-## 📂 2. CẤU TRÚC DỰ ÁN TRÊN NETBEANS
+CẤU TRÚC DỰ ÁN TRÊN NETBEANS
 
 ```text
 CafeManagementSystem/
